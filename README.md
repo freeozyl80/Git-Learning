@@ -29,3 +29,26 @@ git status 命令用于查看项目的当前状态。
 git commit 用于 提交所有改动
 
 > git commit -a 用于跳过add命令
+
+
+### Git log  （ps: q为退出键）
+
+git log 用于显示所有提交历史记录
+
+参数 ： -n 显示前N条
+
+
+### Git remote 
+
+git remote 显示当前所有的远程库
+
+> git remote add (name)(.git) // 添加远程库文件
+
+> git remote show (name) // 显示远程库具体信息
+
+
+### Git push
+
+git push 用于将本地分支的更新，推送到远程主机上
+
+> git push (name)(本地分支名):(远程分支名)
