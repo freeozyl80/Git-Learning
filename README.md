@@ -60,5 +60,11 @@ git push 用于将本地分支的更新，推送到远程主机上
 > git checkout -- file；
 // 撤销对工作区修改；这个命令是以最新的存储时间节点（add和commit）为参照，覆盖工作区对应文件file；这个命令改变的是工作区
 
->git reset HEAD -- file；
+> git reset HEAD -- file；
 // 清空add命令向暂存区提交的关于file文件的修改（Ustage）；这个命令仅改变暂存区，并不改变工作区，这意味着在无任何其他操作的情况下，工作区中的实际文件同该命令运行之前无任何变化，一般情况下都是先进行reset HEAD 以后 再次进行 checkout实现清空
+
+> git reset --hard 3628164
+// HEAD is now at 3628164 append GPL
+// 版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了
+
+> !! git reflog 可以查看所有的版本号啊，所以回退了又想回来的话就可以这么搜版本号
