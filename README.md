@@ -75,3 +75,11 @@ git push 用于将本地分支的更新，推送到远程主机上
 
 > git checkout -b dev  // -b 代表创建并切换
 
+
+#### git 分支切换
+
+> git checkout [branch Name]
+// git 分支切换后，当前工作区代码会切换掉
+
+> get merge [branch Name]
+// 合并工作区代码
