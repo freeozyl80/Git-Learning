@@ -83,3 +83,5 @@ git push 用于将本地分支的更新，推送到远程主机上
 
 > get merge [branch Name]
 // 合并工作区代码
+
+用git log --graph命令可以看到分支合并图。
