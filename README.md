@@ -85,3 +85,7 @@ git push 用于将本地分支的更新，推送到远程主机上
 // 合并工作区代码
 
 用git log --graph命令可以看到分支合并图。
+
+###  git stash 保留git 现场
+
+### git stash list => git stash pop 工作现场重现 
